@@ -5,6 +5,7 @@ namespace Grades
 {
     class GradeBook
     {
+        List<float> grades; // class Field 
         public GradeBook() // Constructor 
         {
             grades = new List<float>();
@@ -14,6 +15,5 @@ namespace Grades
             grades.Add(grade);
         }
 
-        List<float> grades; // class Field 
     }
 }
